@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AKLabel_Example' do
+  pod 'AKLabel', :path => '../'
+
+  target 'AKLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
