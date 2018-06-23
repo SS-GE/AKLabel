@@ -1,15 +1,15 @@
 # AKLabel
 
-[![CI Status](https://img.shields.io/travis/akshaysyaduvanshi/AKLabel.svg?style=flat)](https://travis-ci.org/akshaysyaduvanshi/AKLabel)
-[![Version](https://img.shields.io/cocoapods/v/AKLabel.svg?style=flat)](https://cocoapods.org/pods/AKLabel)
-[![License](https://img.shields.io/cocoapods/l/AKLabel.svg?style=flat)](https://cocoapods.org/pods/AKLabel)
-[![Platform](https://img.shields.io/cocoapods/p/AKLabel.svg?style=flat)](https://cocoapods.org/pods/AKLabel)
+AKLabel is a simple implementation that uses CADisplayLink to animate the text within the given time duration.
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Simply create an instance of AKLabel or assign a AKLabel class in storyboard and call the animate method.
 
-## Requirements
+    @IBOutlet weak var label: AKLabel!
+    label.animate(text: "Animate this text", duration: 10, completion: nil)
+    
+Duration is in seconds
 
 ## Installation
 
@@ -20,9 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'AKLabel'
 ```
 
-## Author
+## Contact
 
-akshaysyaduvanshi, "akshaysyaduvanshi@gmail.com"
+Follow me on Twitter ([@iamakshayyadu](https://twitter.com/iamakshayyadu))
 
 ## License
 
