@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AKLabel'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'AKLabel is a simple implementation that uses CADisplayLink to animate the text within the given time duration.'
 
   s.description      = 'AKLabel is a simple implementation that uses CADisplayLink to animate the text within the given time duration. It takes text to animate along with the duration which is in seconds and animated the text over the given duration.'
