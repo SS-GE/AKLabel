@@ -1,5 +1,7 @@
 # AKLabel
 
+![Screenshot 1](./AKLabelDemo.gif)
+
 AKLabel is a simple implementation that uses CADisplayLink to animate the text within the given time duration.
 
 ## Example
